@@ -113,6 +113,8 @@ en:
 
       deposit_btc:
         title: BTC Deposit
+      deposit_eth:
+        title: ETH Deposit
       deposit_ltc:
         title: LTC Deposit
       deposit_ppc:
@@ -123,13 +125,20 @@ en:
         title: RPT Deposit
       deposit_trt:
         title: TRT Deposit
-
+      deposit_eth:
+        title: ETH Deposit
+      deposit_eur:
+        title: Euro Deposit
+      deposit_usd:
+        title: USD Deposit
+      deposit_cny:
+        title: Chinese Yuan Deposit        
       deposit_coin:
         address: Address
         new_address: New Address
         confirm_gen_new_address: You sure want to generate a new deposit address?
         open-wallet: Please use your common wallet services, local wallet, mobile terminal or online wallet, select a payment and send.
-        detail: aaaPlease paste the address below in your wallet, and fill in the amount you want to deposit, then confirm and send.
+        detail: Please paste the address below in your wallet, and fill in the amount you want to deposit, then confirm and send.
         scan-qr: Scanning QR code to Pay for In the mobile terminal wallet.
         after_deposit: Once you complete sending, you can check the status of your new deposit below.
         generate-new: Generate new address
@@ -169,7 +178,8 @@ en:
         fee_explain: About Fee
         min: At least
         withdraw_all: Withdraw all
-
+      withdraw_eth:
+        title: ETH Withdraw
       withdraw_btc:
         title: BTC Withdraw
       withdraw_ltc:
@@ -182,6 +192,12 @@ en:
         title: RPT Withdraw
       withdraw_trt:
         title: TRT Withdraw
+      withdraw_usd:
+        title: USD Withdraw
+      withdraw_eur:
+        title: Euro Withdraw
+      withdraw_cny:
+        title: Chinese Yuan Withdraw
 
       withdraw_coin:
         intro: Please fill in the address and amount, then submit the form. It will be confirmed in 10 minutes
